@@ -1,0 +1,52 @@
+body {
+    background: rgb(11, 167, 210);
+    background: linear-gradient(90deg, rgba(11, 167, 210, 1) 6%, rgba(55, 91, 129, 1) 99%);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    overflow: hidden;
+}
+
+.gameContainer {
+    background-color: rgb(230, 212, 179);
+    width: 25%;
+    padding: 15px;
+    border: 25px ridge rgb(11, 167, 210);
+    border-radius: 30px;
+    margin: 200px auto;
+    box-shadow: 10px 10px 28px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 28px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 28px 1px rgba(0, 0, 0, 0.75);
+}
+
+.playerChoice,
+.computerChoice {
+    border: 5px ridge #f5f5f5;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.playerChoice {
+    color: blue;
+}
+
+.computerChoice {
+    color: red;
+}
+
+.playerOption {
+    border: 5px ridge #f5f5f5;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #cdcaca;
+    border-radius: 20px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    width: 100px;
+    font-weight: 600;
+    box-shadow: 10px 10px 62px -18px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 62px -18px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 62px -18px rgba(0, 0, 0, 0.75);
+}
+
+.playerOption:hover {
+    background-color: #bab6b6;
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: #cdc8c8;
+    font-family: 'Permarnent Marker', cursive;
+    text-align: center;
+}
+
+.cell {
+    border: 5px ridge;
+    outline: 3px solid;
+    outline-offset: 2px;
+    border-radius: 10px;
+    width: 80px;
+    margin: 10px;
+    height: 80px;
+    font-size: 55px;
+    line-height: 80px;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 335px;
+    margin: auto;
+}
+
+#gameBox {
+    margin-top: 200px;
+}
+
+#resetBtn {
+    padding: 15px;
+    font-size: 20px;
+    margin: auto;
+    border: 5px ridge #cdc8c8;
+    outline: 2px outset;
+    font-family: cursive;
+    transition: all cubic-bezier(0.47, 0, 0.745, 0.715);
+    border-radius: 10px;
+}
+
+#resetBtn:hover {
+    background-color: #d3cece;
+}
